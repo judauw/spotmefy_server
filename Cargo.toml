@@ -1,0 +1,8 @@
+[package]
+name = "spotmefy_server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.5.12"
+tokio = { version = "1.20.0", features = ["full"] }
